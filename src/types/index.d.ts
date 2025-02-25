@@ -1,4 +1,4 @@
-declare interface FilterDashProps {
+declare interface FilterProps {
     filter: FilterType;
     setFilter: (filter: FilterType) => void;
 }

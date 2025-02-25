@@ -1,6 +1,6 @@
 import { Folder, Code2, FileCode2, Container, Gamepad2 } from "lucide-react"
 
-const Filter = ({ filter, setFilter }) => {
+const Filter = ({ filter, setFilter }: FilterProps) => {
   return (
         <div className="mb-6 flex gap-2">
             <button

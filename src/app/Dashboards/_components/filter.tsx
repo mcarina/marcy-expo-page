@@ -1,7 +1,7 @@
 import { BarChart, LineChart, Activity } from "lucide-react"
 
 
-const FilterDash = ({ filter, setFilter }: FilterDashProps) => {
+const FilterDash = ({ filter, setFilter }: FilterProps) => {
   return (
         <div className="mb-6 flex gap-2">
             <button
