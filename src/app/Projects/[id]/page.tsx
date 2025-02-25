@@ -23,6 +23,10 @@ const PageId = () => {
       }
     }
 
+    if (!project) {
+      return <div>Projeto não encontrado</div>;
+    }
+
     
   return (
     <section className="container">
