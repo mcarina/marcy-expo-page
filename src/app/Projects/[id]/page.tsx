@@ -48,7 +48,7 @@ const PageId = () => {
               <h3 className="text-primary mb-2">Tech Stack:</h3>
               <div className="flex flex-wrap gap-2">
                 {project.tech.map((tech) => (
-                  <p key={tech} variant="outline" className="badge">
+                  <p key={tech} className="badge">
                     {tech}
                   </p>
                 ))}
