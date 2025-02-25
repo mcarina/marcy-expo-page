@@ -47,8 +47,8 @@ export const commands = {
     ████░░░░░░ Nginx`,
 
     ed: `> Formação Acadêmica:
-    [2021-2024] Graduacao em Analise e Desenvolvimento de sistemas
-                Faculdade Martha Falcao
+    [2021-2024] Graduação em Análise e Desenvolvimento de sistemas
+                Faculdade Martha Falcão
     
     > Certificações:
     [2022] ADS

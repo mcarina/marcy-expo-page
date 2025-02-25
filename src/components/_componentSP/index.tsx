@@ -43,8 +43,13 @@ export const EstruturaP = `src/
     │   │        └── [id]/          # pagina individual por projeto
     │   └── Sobre-Mim/              # Sobre route
     │            └──_component/     # componentes do terminal
+    │
     ├── components/                 # Componentes reutilizáveis 
     ├── lib/ 
     │     └── constants/            # constants navbar
+    │
+    ├── types/
+    │       └── index.d.ts/         # declaração de tipos
+    │
     └──docker-compose.yml           # Docker compose
 `
