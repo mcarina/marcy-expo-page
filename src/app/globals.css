@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 335 100% 99%;
+    --foreground: 335 50% 15%;
+
+    --card: 335 100% 99%;
+    --card-foreground: 335 50% 15%;
+
+    --popover: 335 100% 99%;
+    --popover-foreground: 335 50% 15%;
+
+    --primary: 335 95% 65%;
+    --primary-foreground: 335 100% 99%;
+
+    --secondary: 335 30% 94%;
+    --secondary-foreground: 335 50% 15%;
+
+    --muted: 335 30% 94%;
+    --muted-foreground: 335 40% 35%;
+
+    --accent: 335 30% 94%;
+    --accent-foreground: 335 50% 15%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 335 30% 90%;
+    --input: 335 30% 90%;
+    --ring: 335 95% 65%;
+
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 335 50% 8%;
+    --foreground: 335 30% 94%;
+
+    --card: 335 50% 8%;
+    --card-foreground: 335 30% 94%;
+
+    --popover: 335 50% 8%;
+    --popover-foreground: 335 30% 94%;
+
+    --primary: 335 95% 65%;
+    --primary-foreground: 335 50% 8%;
+
+    --secondary: 335 50% 15%;
+    --secondary-foreground: 335 30% 94%;
+
+    --muted: 335 50% 15%;
+    --muted-foreground: 335 40% 75%;
+
+    --accent: 335 50% 15%;
+    --accent-foreground: 335 30% 94%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 335 30% 94%;
+
+    --border: 335 50% 15%;
+    --input: 335 50% 15%;
+    --ring: 335 95% 65%;
+  }
+}
+
+
+h1{
+  @apply text-4xl font-bold mb-4 bg-gradient-to-r from-[rgba(var(--primary),0.8)] to-primary bg-clip-text
+}
+
+h2{
+  @apply text-2xl font-semibold mb-4 md:text-3xl font-medium text-[rgba(var(--foreground),0.08)]
+}
+
+h3{
+  @apply text-2xl font-semibold mb-6 md:text-2xl font-medium;
+}
+
+pre{
+ @apply text-sm whitespace-pre-wrap;
+}
+
+footer{
+ @apply mt-8 text-center text-sm text-[#BDBDBDE6];
+}
+
+.p-subtext{
+  @apply text-lg max-w-2xl mx-auto;
+}
+
+/* navHome */
+.navHome {
+  @apply flex items-center justify-between gap-20 overflow-x-auto px-2 py-3 leading-none lg:px-0 lg:py-0;
+}
+
+.navLink {
+  @apply flex items-center gap-1.5 px-2 py-0.5 leading-none transition-all text-sm md:text-base;
+}
+
+/* Card project home */
+.card-containers {
+  @apply p-6 border rounded-2xl bg-[rgba(var(--card),0.5)] backdrop-blur-sm hover:shadow-lg hover:shadow-[rgba(var(--primary),0.08)] transition-all duration-300;
+}
+
+.icons-card {
+  @apply w-12 h-12 mb-4 group-hover:scale-110 transition-transform;
+}
+
+/* home */
+.home {
+  @apply min-h-screen bg-gradient-to-b from-background via-background to-[rgba(var(--secondary),0.2)];
+}
+
+.home-container{
+  @apply px-4 py-40 mx-auto;
+}
+
+/* About, sobre mim */
+.container{
+  @apply min-h-screen bg-background font-mono p-4 ml-4;
+}
+
+.about-container2{
+  @apply border p-4 min-h-[400px] bg-[rgba(var(--secondary),0.2)];
+}
+
+/* Project */
+.card-project-containers{
+  @apply p-4 m-2 mt-1 border backdrop-blur-sm hover:shadow-lg transition-all duration-300;
+}
+
+.p-projects{
+  @apply mt-2 text-center font-mono text-sm;
+} 
+
+/* filter */
+.button{
+  @apply flex font-mono border p-4 pb-0 pt-1;
+}
+
+.badge{
+  @apply border rounded-2xl pl-2 pr-2;
+}
