@@ -6,11 +6,13 @@ declare interface FilterProps {
 declare interface Project {
     id: string;
     name: string;
+    description: string; // Adicionando description ao tipo
+    longDescription?: string;
+    tech: string[];
+    type: "frontend" | "backend" | "fullstack" | "DevOps" | "Utilitários e Jogos";
     status: "completed" | "in-progress" | "planned";
-    longDescription: string;
-    tech?: string[];
-    features?: string[];
-    challenges?: string[];
-    demoUrl: string;
+    demoUrl?: string; // Se for opcional
     githubUrl: string;
-}
+    features?: string[]; // Se for opcional
+    challenges?: string[]; // Se for opcional
+};
