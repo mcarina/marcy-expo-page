@@ -4,41 +4,36 @@ const Filter = ({ filter, setFilter }: FilterProps) => {
   return (
         <div className="mb-6 flex gap-2">
             <button
-                variant={filter === "all" ? "default" : "outline"}
                 onClick={() => setFilter("all")}
-                className="button"
+                className={`button ${filter === "all" ? "bg-default" : "bg-outline"}`}
             >
                 <Folder className="mr-2 h-6 w-4" />
                 todos
             </button>
             <button
-                variant={filter === "frontend" ? "default" : "outline"}
                 onClick={() => setFilter("frontend")}
-                className="button"
+                className={`button ${filter === "frontend" ? "bg-default" : "bg-outline"}`}
             >
                 <Code2 className="mr-2 h-6 w-4" />
                 frontend
             </button>
             <button
-                variant={filter === "backend" ? "default" : "outline"}
                 onClick={() => setFilter("backend")}
-                className="button"
+                className={`button ${filter === "backend" ? "bg-default" : "bg-outline"}`}
             >
                 <FileCode2 className="mr-2 h-5 w-4" />
                 backend
             </button>
             <button
-                variant={filter === "DevOps" ? "default" : "outline"}
                 onClick={() => setFilter("DevOps")}
-                className="button"
+                className={`button ${filter === "DevOps" ? "bg-default" : "bg-outline"}`}
             >
                 <Container className="mr-2 h-6 w-4" />
                 DevOps
             </button>
             <button
-                variant={filter === "Utilitários e Jogos" ? "default" : "outline"}
                 onClick={() => setFilter("Utilitários e Jogos")}
-                className="button"
+                className={`button ${filter === "Utilitários e Jogos" ? "bg-default" : "bg-outline"}`}
             >
                 <Gamepad2 className="mr-2 h-6 w-4" />
                 Utilitários e Jogos

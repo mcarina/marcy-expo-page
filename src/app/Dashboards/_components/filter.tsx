@@ -5,33 +5,29 @@ const FilterDash = ({ filter, setFilter }: FilterProps) => {
   return (
         <div className="mb-6 flex gap-2">
             <button
-                variant={filter === "all" ? "default" : "outline"}
                 onClick={() => setFilter("all")}
-                className="button"
+                className={`button ${filter === "all" ? "bg-default" : "bg-outline"}`}
             >
                 <BarChart className="mr-2 h-6 w-4" />
                 todos
             </button>
             <button
-                variant={filter === "frontend" ? "default" : "outline"}
                 onClick={() => setFilter("frontend")}
-                className="button"
+                className={`button ${filter === "frontend" ? "bg-default" : "bg-outline"}`}
             >
                 <LineChart className="mr-2 h-6 w-4" />
                 Python
             </button>
             <button
-                variant={filter === "backend" ? "default" : "outline"}
                 onClick={() => setFilter("backend")}
-                className="button"
+                className={`button ${filter === "backend" ? "bg-default" : "bg-outline"}`}
             >
                 <LineChart className="mr-2 h-5 w-4" />
                 pb
             </button>
             <button
-                variant={filter === "DevOps" ? "default" : "outline"}
                 onClick={() => setFilter("DevOps")}
-                className="button"
+                className={`button ${filter === "DevOps" ? "bg-default" : "bg-outline"}`}
             >
                 <Activity className="mr-2 h-6 w-4" />
                 ls
