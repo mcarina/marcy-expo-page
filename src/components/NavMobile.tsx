@@ -21,7 +21,7 @@ export const MobileNav = () => {
                     </button>
                 </SheetTrigger>
                 
-                <SheetContent side="left" className="w-full sm:max-w-x">
+                <SheetContent side="left" className="w-full sm:max-w-x text-white">
                         <ul className='flex flex-col items-center p-2 gap-5'>
                             {menu.map(item => {
                                 const isActive = segment === item.href.split('/')[1] || (segment === null && item.href === '/')

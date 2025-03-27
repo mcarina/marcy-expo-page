@@ -32,11 +32,11 @@ const PageId = () => {
     <section className="container">
       <div className="border p-8">
         <main>
-          <div className="flex">
+          <div className="block sm:flex">
             <h1>
               {project.name}
             </h1>
-            <span className={`ml-auto ${getStatusColor(project.status)}`}>{project.status}</span>
+            <span className={`ml-auto mb-2 ${getStatusColor(project.status)}`}>{project.status}</span>
           </div>
           <p>{project.longDescription}</p>
         </main>

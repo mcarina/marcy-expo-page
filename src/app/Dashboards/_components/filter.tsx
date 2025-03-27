@@ -3,7 +3,7 @@ import { BarChart, LineChart, Activity } from "lucide-react"
 
 const FilterDash = ({ filter, setFilter }: FilterProps) => {
   return (
-        <div className="mb-6 flex gap-2">
+        <div className="mb-6 grid grid-cols-2 gap-2 sm:flex sm:gap-4 sm:flex-wrap">
             <button
                 onClick={() => setFilter("all")}
                 className={`button ${filter === "all" ? "bg-default" : "bg-outline"}`}
