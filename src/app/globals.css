@@ -97,7 +97,7 @@ footer{
 
 /* navHome */
 .navHome {
-  @apply flex items-center justify-between gap-20 overflow-x-auto px-2 py-3 leading-none lg:px-0 lg:py-0;
+  @apply items-center justify-between gap-20 overflow-x-auto px-2 py-3 leading-none lg:px-0 lg:py-0 fixed hidden sm:flex;
 }
 
 .navLink {
