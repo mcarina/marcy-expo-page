@@ -32,7 +32,7 @@ return (
                     <span className="text-primary">&gt;</span> Sobre o Projeto
                 </h2>
 
-                <div className="space-y-6 text-muted-foreground">
+                <div className="space-y-6 text-muted-foreground mt-2 text-balance max-w-[220px] mx-auto sm:max-w-none">
                     <p>Este é um portfólio interativo com um tema inspirado em terminal/CMD, onde apresento
                     <br></br> 
                     meus projetos de forma dinâmica e estilizada.
@@ -56,7 +56,7 @@ return (
                     <pre className="whitespace-pre-wrap">{RecursosF}</pre>
                 </div>
 
-                <div className="space-y-2">
+                <div className="space-y-2 hidden sm:block">
                     <h3 className="text-xl font-bold mb-6 flex items-center gap-2"># Estrutura do Projeto</h3>
                     <pre className="p-4 border bg-card text-sm">{EstruturaP}</pre>
                 </div>

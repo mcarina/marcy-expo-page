@@ -5,7 +5,7 @@ import { Sparkles } from "lucide-react"
 
 export default function Home() {
   return (
-      <div className="home min-h-screen" >
+      <div className="home" >
         <div className="home-container">
           
           <pre className='flex flex-cols h-full flex-col items-center justify-center space-y-2.5 whitespace-pre md:space-y-3 w-full'>
