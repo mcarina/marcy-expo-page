@@ -50,4 +50,4 @@ Sinta-se à vontade para abrir issues e enviar pull requests e se inspirar, mais
 
 ### ✨ Autor
 
-Desenvolvido por Marcy. Conecte-se comigo no LinkedIn!
+by Marcy. Conecte-se comigo no LinkedIn!
