@@ -2,7 +2,7 @@ import { Folder, Code2, FileCode2, Container, Gamepad2 } from "lucide-react"
 
 const Filter = ({ filter, setFilter }: FilterProps) => {
   return (
-        <div className="mb-4 grid grid-cols-2 gap-2 sm:flex sm:gap-4 sm:flex-wrap">
+        <div className="mb-8 grid grid-cols-2 gap-2 sm:flex sm:gap-4 sm:flex-wrap">
             <button
                 onClick={() => setFilter("all")}
                 className={`button ${filter === "all" ? "bg-default" : "bg-outline"}`}

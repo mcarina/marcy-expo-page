@@ -12,7 +12,7 @@ const [filter, setFilter] = useState<"all" | "frontend" | "backend" | "fullstack
 const filteredProjects = projects.filter((project) => (filter === "all" ? true : project.type === filter))
 
   return (
-    <section className="container">
+    <section className="m-8 p-8">
 
             <div className="border p-4 mb-8">
                 <p className="p-projects">
@@ -29,10 +29,10 @@ const filteredProjects = projects.filter((project) => (filter === "all" ? true :
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="p-6 grid grid-cols-1 md:grid-cols-4 gap-1 max-w-1xl mx-auto"
+            className="grid grid-cols-1 md:grid-cols-4 gap-1 max-w-1xl mx-auto"
             >
             {filteredProjects.map((project)=>(
-                <div key={project.id} className="group card-project-containers">
+                <div key={project.id} className="card-project-containers">
                     <Link href={`/Projects/${project.id}`}>
                         <pre>
                             <div key={project.id}>

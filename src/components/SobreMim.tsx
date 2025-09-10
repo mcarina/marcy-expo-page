@@ -24,7 +24,7 @@ export default function SobreMim() {
 
 
   return (
-    <section className="container">
+    <section className="m-8 p-8">
         <div className="border p-4 mb-8">
         <p className="text-muted-foreground mt-2 text-center max-w-[220px] mx-auto sm:max-w-none">
             +-------------+  marcyexpo_terminal v1.0.0  +-------------+

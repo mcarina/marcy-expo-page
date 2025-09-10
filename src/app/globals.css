@@ -106,7 +106,7 @@ footer{
 
 /* Card project home */
 .card-containers {
-  @apply p-6 border rounded-2xl bg-[rgba(var(--card),0.5)] backdrop-blur-sm hover:shadow-lg hover:shadow-[rgba(var(--primary),0.08)] transition-all duration-300;
+  @apply p-2 pb-4 pt-4 pr-4 pl-2 border rounded-2xl bg-[rgba(var(--card),0.5)] backdrop-blur-sm hover:shadow-lg hover:shadow-[rgba(var(--primary),0.08)] transition-all duration-300;
 }
 
 .icons-card {
@@ -133,7 +133,7 @@ footer{
 
 /* Project */
 .card-project-containers{
-  @apply p-4 m-2 mt-1 border backdrop-blur-sm hover:shadow-lg transition-all duration-300;
+  @apply p-4 m-2 mt-1 gap-6 border backdrop-blur-sm hover:shadow-lg transition-all duration-300;
 }
 
 .p-projects{

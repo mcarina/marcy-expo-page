@@ -29,7 +29,7 @@ const PageId = () => {
 
     
   return (
-    <section className="container">
+    <section className="m-12 p-8 min-h-[300px]">
       <div className="border p-8">
         <main>
           <div className="block sm:flex">

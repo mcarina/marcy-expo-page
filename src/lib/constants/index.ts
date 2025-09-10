@@ -7,10 +7,10 @@ export const menu = [
         title: 'meus projetos dev',
         href: '/Projects'
     },
-    {
-        title: 'meus dashboard',
-        href: '/Dashboards'
-    },
+    // {
+    //     title: 'meus dashboard',
+    //     href: '/Dashboards'
+    // },
     {
         title: 'sobre mim',
         href: '/Sobre-Mim'
