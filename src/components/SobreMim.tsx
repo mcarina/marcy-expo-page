@@ -25,13 +25,13 @@ export default function SobreMim() {
 
   return (
     <section className="m-8 p-8">
-        <div className="border p-4 mb-8">
-        <p className="text-muted-foreground mt-2 text-center max-w-[220px] mx-auto sm:max-w-none">
-            +-------------+  marcyexpo_terminal v1.0.0  +-------------+
-        </p>
+        <div className="border p-4 mb-8 shadow-lg hover:shadow-white/30">
+            <p className="text-muted-foreground mt-2 text-center max-w-[220px] mx-auto sm:max-w-none">
+                +-------------+  marcyexpo_terminal v1.0.0  +-------------+
+            </p>
         </div>
 
-        <div className="about-container2">
+        <div className="about-container2 shadow-lg hover:shadow-white/60">
             <div className="space-y-4">
 
                 {commandHistory.map((entry, i) => (

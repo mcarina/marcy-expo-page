@@ -30,7 +30,7 @@ const PageId = () => {
     
   return (
     <section className="m-12 p-8 min-h-[300px]">
-      <div className="border p-8">
+      <div className="border p-8 shadow-lg hover:shadow-white/30 shadow-white/30">
         <main>
           <div className="block sm:flex">
             <h1>

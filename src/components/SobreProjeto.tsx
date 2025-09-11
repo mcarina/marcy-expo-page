@@ -14,7 +14,7 @@ export const SobreProjeto = () => {
     
 return (
     <>
-    <button onClick={toggleProject} className="p-6 border rounded-2xl group font-mono">
+    <button onClick={toggleProject} className="p-6 border rounded-2xl group font-mono shadow-lg shadow-white/10 hover:shadow-white/20 ">
         <span className="text-primary mr-2">&gt;</span>
         ~/Sobre o projetos
     </button>
@@ -26,7 +26,7 @@ return (
         transition={{ duration: 0.5, delay: 0.2 }}
         >
 
-            <div className="p-6 border rounded-2xl bg-secondary/20">
+            <div className="p-6 border rounded-2xl bg-secondary/20 shadow-lg shadow-white/30 hover:shadow-white/60 ">
                 <h2 className="flex items-center gap-2">
                     <FileDown className="w-5 h-5 text-primary" />
                     <span className="text-primary">&gt;</span> Sobre o Projeto

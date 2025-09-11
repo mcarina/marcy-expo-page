@@ -19,7 +19,7 @@ export default function RootLayout({ children }: Readonly<Props>) {
   return (
     <html lang="pt-br">
       <body>
-        <div className={cn("min-h-screen bg-background font-sans antialiased")}>
+        <div className={cn("min-h-screen bg-black text-white font-sans antialiased")}>
           <NavHome/>
           <MobileNav/>
           {children}

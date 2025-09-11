@@ -14,7 +14,7 @@ const filteredProjects = projects.filter((project) => (filter === "all" ? true :
   return (
     <section className="m-8 p-8">
 
-            <div className="border p-4 mb-8">
+            <div className="border p-4 mb-8 shadow-lg hover:shadow-white/30">
                 <p className="p-projects">
                         {`Total de projetos: ${filteredProjects.length} `}
                 </p>
